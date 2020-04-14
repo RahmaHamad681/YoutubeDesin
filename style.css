@@ -1,0 +1,106 @@
+body {
+    margin: 0;
+    font-display: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
+}
+/* Header */
+header {
+    overflow: hidden ;
+    padding: 20px ;
+}
+header .header-left, header .header-center, aside, #right-content, #videos-list .video {
+    float: left ;
+}
+.header-left .youtube-img {
+    width: 100px ;
+}
+/* Center Content */
+header .header-center form {
+    margin-left: 200px ;
+}
+header .header-center form input, header .header-center form button {
+    border:2px solid #ece4e4;
+}
+.header-center form input {
+    padding: 4px 300px 6px 5px ;
+    font-size: 15px ;
+}
+input ::placeholder {
+    color: rgb(155, 148, 148) ;
+}
+header .header-center form button {
+    background-color: #d3d3d321 ;
+    margin-left: -5.7px ;
+    padding: 6px 17px 6px ;
+}
+header .header-center form button img {
+    width: 23px ;
+    height: 12px ;
+}
+/* Right Content */
+header .header-right, #container .notifications-button {
+    float: right ;
+}
+.user-img, #videos-list .video .channel-img {
+    border-radius: 50% ;
+}
+.user-img {
+    width: 30px ;
+    height: 30px ;
+}
+.header-left .option-img, .header-right .video-icon, .header-right .icon, .header-right .r-icon {
+    width: 25px ;
+    height: 25px ;
+    margin-right: 19px ;
+}
+/* Content */
+#container {
+    overflow: hidden;
+}
+/* Side-bar */
+aside {
+    width: 16% ;
+}
+aside img {
+    width: 100% ;
+    margin-top: 9px ;
+}
+/* Right Content */
+#right-content {
+    background: #d3d3d321 ;
+    width: 84% ;
+    padding: 20px ;
+    box-sizing: border-box ;
+}
+#container .notifications-button {
+    background: #807979fa ;
+    color: whitesmoke ;
+    padding: 9px ;
+}
+#container .recommended, #videos-list .video  {
+    margin-left: 21px ;
+}
+/* Videos List */
+#videos-list .video img {
+    width: 251px ;
+    height: 135px ;
+}
+/* Video Description */
+#videos-list .video-description {
+    position: relative ;
+    margin: 7px 0 75px ;
+}
+.video .video-title_views {
+    position: absolute ;
+    top: -11px ;
+    left: 60px ;
+}
+#videos-list .video .channel-img {
+    width: 48px ;
+    height: 48px ;
+}
+#videos-list .video h3 {
+    font-size: 15px ;
+}
+footer {
+    color: rgb(134, 129, 129) ;
+}
